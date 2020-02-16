@@ -7,13 +7,13 @@
 	</thead>
 	<tbody>
 <?php
-    echo 'test';
-	/*$eqLogic = eqLogic::byId($_GET['id']);
+	$eqLogic = eqLogic::byId($_GET['id']);
 
-	echo '<tr><td colspan="2" style="background-color:#555">Equipement '.$eqLogic->getName().'</td></tr>';
+	//echo '<tr><td colspan="2" style="background-color:#555">Equipement '.$eqLogic->getName().'</td></tr>';
 
 	$value = json_decode($eqLogic->getCmd('info','ITime')->getCache()['value']);
-	echo '<tr><td>Heure du poêle</td><td>'. $value->STOVE_DATETIME.'</td></tr>';
+	echo $value;
+	/*echo '<tr><td>Heure du poêle</td><td>'. $value->STOVE_DATETIME.'</td></tr>';
 	echo '<tr><td>Jour de la semaine</td><td>'. Palazzetti::getWeekDay($value->STOVE_WDAY).'</td></tr>';
 
 	$value = $eqLogic->getCmd('info','IConsigne');
@@ -93,8 +93,8 @@
 	echo '<tr><td>Mode wifi</td><td>'. $value->WMODE.'</td></tr>';
 	echo '<tr><td>Canal</td><td>'. $value->WCH.'</td></tr>';
 	echo '<tr><td>SSID</td><td>'. $value->WSSID.'</td></tr>';
-	echo '<tr><td>Type de cryptage</td><td>'. $value->WENC.'</td></tr>';*/
-	
+	echo '<tr><td>Type de cryptage</td><td>'. $value->WENC.'</td></tr>';
+	*/
 ?>
 	</tbody>
 </table>
