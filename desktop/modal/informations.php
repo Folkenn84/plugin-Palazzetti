@@ -7,8 +7,8 @@
 	</thead>
 	<tbody>
 <?php
-
-	$eqLogic = eqLogic::byId($_GET['id']);
+    echo 'test';
+	/*$eqLogic = eqLogic::byId($_GET['id']);
 
 	echo '<tr><td colspan="2" style="background-color:#555">Equipement '.$eqLogic->getName().'</td></tr>';
 
@@ -93,7 +93,7 @@
 	echo '<tr><td>Mode wifi</td><td>'. $value->WMODE.'</td></tr>';
 	echo '<tr><td>Canal</td><td>'. $value->WCH.'</td></tr>';
 	echo '<tr><td>SSID</td><td>'. $value->WSSID.'</td></tr>';
-	echo '<tr><td>Type de cryptage</td><td>'. $value->WENC.'</td></tr>';
+	echo '<tr><td>Type de cryptage</td><td>'. $value->WENC.'</td></tr>';*/
 	
 ?>
 	</tbody>
