@@ -20,7 +20,7 @@ class Palazzetti extends eqLogic {
 
 			// mise à jour horloge 
 			$date = date("Y-m-d H:i:s");
-			$DATA = $Palazzetti->makeRequest($cmdString) ;
+			//$DATA = $Palazzetti->makeRequest($cmdString) ;
 		}
 	}
 

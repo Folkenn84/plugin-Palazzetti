@@ -9,10 +9,10 @@
 <?php
 	$eqLogic = eqLogic::byId($_GET['id']);
 
-	//echo '<tr><td colspan="2" style="background-color:#555">Equipement '.$eqLogic->getName().'</td></tr>';
+	echo '<tr><td colspan="2" style="background-color:#555">Equipement '.$eqLogic->getName().'</td></tr>';
 
-	$value = json_decode($eqLogic->getCmd('info','ITime')->getCache()['value']);
-	echo '<tr><td>'.$value.'</td></tr>';
+	//$value = json_decode($eqLogic->getCmd('info','ITime')->getCache()['value']);
+	//echo '<tr><td>'.$value.'</td></tr>';
 	/*echo '<tr><td>Heure du poêle</td><td>'. $value->STOVE_DATETIME.'</td></tr>';
 	echo '<tr><td>Jour de la semaine</td><td>'. Palazzetti::getWeekDay($value->STOVE_WDAY).'</td></tr>';
 
