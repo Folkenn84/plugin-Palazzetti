@@ -13,8 +13,8 @@
 
 	//$value = json_decode($eqLogic->getCmd('info','ITime')->getCache()['value']);
 	//echo '<tr><td>'.$value.'</td></tr>';
-	/*echo '<tr><td>Heure du poêle</td><td>'. $value->STOVE_DATETIME.'</td></tr>';
-	echo '<tr><td>Jour de la semaine</td><td>'. Palazzetti::getWeekDay($value->STOVE_WDAY).'</td></tr>';
+	//echo '<tr><td>Heure du poêle</td><td>'. $value->STOVE_DATETIME.'</td></tr>';
+	//echo '<tr><td>Jour de la semaine</td><td>'. Palazzetti::getWeekDay($value->STOVE_WDAY).'</td></tr>';
 
 	$value = $eqLogic->getCmd('info','IConsigne');
 	echo '<tr><td>Température de consigne</td><td>'. $value->getCache()['value'].' °C</td></tr>';
@@ -94,7 +94,6 @@
 	echo '<tr><td>Canal</td><td>'. $value->WCH.'</td></tr>';
 	echo '<tr><td>SSID</td><td>'. $value->WSSID.'</td></tr>';
 	echo '<tr><td>Type de cryptage</td><td>'. $value->WENC.'</td></tr>';
-	*/
 ?>
 	</tbody>
 </table>
