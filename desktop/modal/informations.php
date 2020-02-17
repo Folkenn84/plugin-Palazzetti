@@ -12,7 +12,7 @@
 	echo '<tr><td colspan="2" style="background-color:#555">Equipement '.$eqLogic->getName().'</td></tr>';
 
     log::add('Palazzetti', 'debug','affichage des infos');
-    log::add('Palazzetti', 'debug','Itime: '. $eqLogic->getCmd('info','IPH'));
+    log::add('Palazzetti', 'debug','Itime: '. json_decode($eqLogic->getCmd('info','IPH')->getCache()['value']));
 	/*$value = json_decode($eqLogic->getCmd('info','ITime')->getCache()['value']);
 
 	echo '<tr><td>Heure du poêle</td><td>'. $value->STOVE_DATETIME.'</td></tr>';
