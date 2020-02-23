@@ -608,7 +608,7 @@ class Palazzetti extends eqLogic {
 		$url = 'http://' . $this->getConfiguration('addressip') . '/cgi-bin/sendmsg.lua?cmd=' . $cmd;
 		log::add('Palazzetti', 'debug','('.__LINE__.') ' . __FUNCTION__.' - '. 'get URL '. $url);
 		$request_http = new com_http($url);
-		$return = $request_http->exec(5);
+		$return = $request_http->exec(10);
 		$return = json_decode($return);
 		if($return->INFO->RSP != 'OK') {
 			log::add('Palazzetti', 'error','('.__LINE__.') ' . __FUNCTION__.' - '. ' réponse erreur ' . $cmd);

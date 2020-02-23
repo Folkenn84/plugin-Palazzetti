@@ -9,9 +9,10 @@
 <?php
 	$eqLogic = eqLogic::byId($_GET['id']);
 
+    log::add('Palazzetti', 'debug','affichage des infos'.$eqLogic->getName());
 	echo '<tr><td colspan="2" style="background-color:#555">Equipement '.$eqLogic->getName().'</td></tr>';
 
-    log::add('Palazzetti', 'debug','affichage des infos');
+
     log::add('Palazzetti', 'debug','Itime: '. json_decode($eqLogic->getCmd('info','IPH')->getCache()['value']));
 	/*$value = json_decode($eqLogic->getCmd('info','ITime')->getCache()['value']);
 
