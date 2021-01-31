@@ -6,8 +6,8 @@
 	"author" : "Jeedom Legacy",
 	"require" : "4.0",
 	"version" : "0.6",
-	"category" : "energie",
-        "hasOwnDeamon" : false,
-        "changelog" : "https://jeedom.github.io/plugin-Palazzetti/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-Palazzetti/#language#/"
+	"category" : "energy",
+	"hasOwnDeamon" : false,
+    "changelog" : "https://jeedom.github.io/plugin-Palazzetti/#language#/changelog",
+    "documentation" : "https://jeedom.github.io/plugin-Palazzetti/#language#/"
 }
